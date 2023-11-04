@@ -266,3 +266,36 @@ nav ul li {
 .main-list li:last-child:before {
   content: "3";
 }
+.main-sections {
+  background: #f4efe9;
+}
+.built {
+  display: flex;
+padding-top: 80px;
+justify-content: space-around;
+  align-items: center;
+}
+.built-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.built h2 {
+  color: #1e1928;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+.built p {
+  color: rgba(30, 25, 40, 0.8);
+  text-align: right;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.252px;
+}
+.built-img {
+  padding: 98px 103px 109px 194px;
+}
