@@ -315,8 +315,9 @@ nav ul li {
   justify-content: space-around;
   margin-bottom: 80px;
 }
-.standing-img{
-  background-image: url("../images/Vector.png");
+
+.standing-img {
+    background-image: url("../images/Vector.png");
   background-size: 146.786px 34.286px;
   background-repeat: no-repeat;
   background-position: left 64.29px bottom 540px;
@@ -326,12 +327,11 @@ nav ul li {
   height: 586.071px;
   margin: 7.5px 150px 6.43px 150px;
   border-radius: 50px;
-
 }
 .standing-option-img{
-  width: 545px;
-height: 506px;
-    padding: 48px 29px 46px 26px;
+width: 545px;
+  height: 506px;
+  margin: 48px 29px 46px 26px;
 }
 .standing-text h2 {
   color: #1e1928;
@@ -369,7 +369,7 @@ height: 506px;
   line-height: 30px;
   letter-spacing: 0.252px;
 }
-.easily-img{
+.easily-img {
   background-image: url("../images/Vector.png");
   background-size: 146.786px 34.286px;
   background-repeat: no-repeat;
@@ -384,16 +384,28 @@ height: 506px;
 .easily-option-img {
   padding: 72.5px 26.21px 59.79px 26.21px;
 }
-.Paperwork {
+.paperwork {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-bottom: 80px;
 }
-.Paperwork-img {
-  padding: 104px 187px;
+.paperwork-img {
+  background-image: url("../images/Vector.png");
+  background-size: 146.786px 34.286px;
+  background-repeat: no-repeat;
+  background-position: left 64.29px bottom 540px;
+  border-color: #fff;
+  border: #fff solid 11.79px;
+  width: 300px;
+  height: 586.071px;
+  margin: 7.5px 150px 6.43px 150px;
+  border-radius: 50px;
 }
-.Paperwork-text h2 {
+.paperwork-option-img {
+  padding: 96.5px 25.21px 85.79px;
+}
+.paperwork-text h2 {
   color: #1e1928;
   font-family: Roboto;
   font-size: 32px;
@@ -401,7 +413,7 @@ height: 506px;
   font-weight: 700;
   line-height: 42px;
 }
-.Paperwork-text p {
+.paperwork-text p {
   color: rgba(30, 25, 40, 0.8);
   font-size: 16px;
   line-height: 30px;
@@ -430,7 +442,7 @@ height: 506px;
   letter-spacing: 0.252px;
 }
 .listen-img {
-   background-image: url("../images/Vector.png");
+  background-image: url("../images/Vector.png");
   background-size: 146.786px 34.286px;
   background-repeat: no-repeat;
   background-position: left 64.29px bottom 540px;
@@ -441,6 +453,6 @@ height: 506px;
   margin: 7.5px 150px 6.43px 150px;
   border-radius: 50px;
 }
-.listen-option-img  {
+.listen-option-img {
   padding: 198.5px 54.21px 187.79px 53.21px;
 }
