@@ -315,9 +315,8 @@ nav ul li {
   justify-content: space-around;
   margin-bottom: 80px;
 }
-
 .standing-img {
-    background-image: url("../images/Vector.png");
+  background-image: url("../images/Vector.png");
   background-size: 146.786px 34.286px;
   background-repeat: no-repeat;
   background-position: left 64.29px bottom 540px;
@@ -328,8 +327,8 @@ nav ul li {
   margin: 7.5px 150px 6.43px 150px;
   border-radius: 50px;
 }
-.standing-option-img{
-width: 545px;
+.standing-option-img {
+  width: 545px;
   height: 506px;
   margin: 48px 29px 46px 26px;
 }
