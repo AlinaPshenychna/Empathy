@@ -81,6 +81,7 @@ nav ul li {
   max-width: 448px;
   justify-content: space-between;
 }
+
 .form-number {
   width: 180px;
   border: none;
@@ -112,11 +113,7 @@ nav ul li {
 }
 .section2 {
   padding-top: 270px;
-  padding-bottom: 78px;
   background-color: #ffd394;
-  background-image: url("../images/");
-  background-position: bottom -240px left 0px;
-  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -173,6 +170,9 @@ nav ul li {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  background-image: url("../images/left-img.png");
+  background-position: bottom -240px left 0px;
+  background-repeat: no-repeat;
 }
 .section2-article2-title {
   color: #1e1928;
@@ -499,7 +499,6 @@ nav ul li {
 }
 .section-security-position {
   position: relative;
-  
 }
 .security-position {
   max-width: 1200px;
@@ -559,4 +558,87 @@ nav ul li {
   font-size: 15px;
   line-height: 24px;
   padding-bottom: 184px;
+}
+.as-on {
+  background: #ede6dd;
+}
+.as-on h3 {
+  color: #1e1928;
+  text-align: center;
+  font-size: 31px;
+  line-height: 42px;
+  padding-top: 144px;
+  padding-bottom: 68px;
+}
+.as-item-list {
+  font-size: 0;
+  padding-bottom: 164px;
+}
+.as-item {
+  max-width: 25%;
+  border-radius: 8px;
+  background: rgba(30, 25, 40, 0.08);
+  padding: 24px 29px;
+  margin: 0 8px;
+  display: inline-block;
+  vertical-align: center;
+}
+.mr-l {
+  margin-left: 0;
+}
+.mr-r {
+  margin-right: 0;
+}
+.start-trial {
+  background: #1e1928;
+}
+.start-trial-black {
+
+}
+.start-trial-black h3 {
+  color: #fff;
+   text-align: center;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.252px;
+  padding-top: 166px;
+  padding-bottom: 33px;
+}
+.main-form-tel {
+  border-radius: 9999px;
+  background: #fff;
+  max-width: 434px;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+}
+.form-tel {
+  width: 180px;
+  border: none;
+  background-color: transparent;
+  padding: 10px 19px;
+  color: rgba(30, 25, 40, 1);
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+}
+.text-link {
+  color: #f4efe9;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 9999px;
+  background: #1e1928;
+  padding: 10px 32px;
+  text-decoration: none;
+}
+.start-trial-black p {
+  color: #ede6dd;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 23px;
+  padding-bottom: 138px;
 }
