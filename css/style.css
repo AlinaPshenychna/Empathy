@@ -3,6 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
 body {
   background-color: #f4efe9;
   font-family: Inter;
@@ -572,7 +577,7 @@ nav ul li {
 }
 .as-item-list {
   font-size: 0;
-  padding-bottom: 164px;
+  padding-bottom: 242px;
 }
 .as-item {
   max-width: 25%;
@@ -591,13 +596,63 @@ nav ul li {
 }
 .start-trial {
   background: #1e1928;
+  position: relative;
 }
-.start-trial-black {
-
+.trial-position {
+  border-radius: 8px;
+  background: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: -120px;
+  left: calc(50% - 600px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+.free-trial {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-right: 167px;
+  border-right: 1px solid #1E1928;
+}
+.free-trial h3 {
+  color: #1e1928;
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+}
+.free-trial p {
+  color: rgba(30, 25, 40, 0.64);
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.084px;
+}
+.all-included {
+  margin: 0 auto;
+  max-width: 600px;
+}
+.all-included h3 {
+  color: #1e1928;
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+}
+.all-included p {
+  color: rgba(30, 25, 40, 0.64);
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.084px;
 }
 .start-trial-black h3 {
   color: #fff;
-   text-align: center;
+  text-align: center;
   font-size: 17px;
   line-height: 26px;
   letter-spacing: 0.252px;
@@ -641,4 +696,50 @@ nav ul li {
   line-height: 20px;
   padding-top: 23px;
   padding-bottom: 138px;
+}
+.footer{
+  background: #FFF;
+}
+.footer-info{
+padding-top: 64px;
+display: flex;
+justify-content: space-between;
+}
+.footer-info-company{
+display: flex;
+flex-direction: column;
+}
+.footer-info-company h3{
+  color: #1E1928;
+font-size: 17px;
+font-weight: 700;
+line-height: 26px; 
+letter-spacing: 0.252px;
+padding-bottom: 16px;
+}
+.footer-info-company a{
+color: rgba(30, 25, 40, 0.80);
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+padding-bottom: 16px;
+}
+.footer-info-resources{
+display: flex;
+flex-direction: column;
+}
+.footer-info-resources h3{
+  color: #1E1928;
+font-size: 17px;
+font-weight: 700;
+line-height: 26px; 
+letter-spacing: 0.252px;
+padding-bottom: 16px;
+}
+.footer-info-resources a{
+color: rgba(30, 25, 40, 0.80);
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+padding-bottom: 16px;
 }
