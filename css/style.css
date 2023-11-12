@@ -443,7 +443,8 @@ nav ul li {
   padding: 198.5px 54.21px 187.79px 53.21px;
 }
 .item-section {
-  padding-bottom: 164px;
+  padding-bottom: 302px;
+  text-align: center;
 }
 .item-section h3 {
   color: #1e1928;
@@ -458,7 +459,6 @@ nav ul li {
 .item-section item-list {
   max-width: 1440px;
   font-size: 0;
-  padding-bottom: 80px;
 }
 .item-list {
   text-align: center;
@@ -496,4 +496,67 @@ nav ul li {
   border: 1px solid #1e1928;
   padding: 10px 33px;
   text-decoration: none;
+}
+.section-security-position {
+  position: relative;
+  
+}
+.security-position {
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 8px;
+  background: #fff;
+  text-align: center;
+  position: absolute;
+  top: -158px;
+  left: calc(50% - 600px);
+  padding-top: 80px;
+  padding-bottom: 76px;
+}
+.security-position h3 {
+  color: #1e1928;
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+  padding-bottom: 24px;
+}
+.security-position p {
+  color: rgba(30, 25, 40, 0.8);
+  text-align: center;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.252px;
+}
+.review {
+  background: #592141;
+  text-align: center;
+}
+.review-header {
+  color: #f4efe9;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.252px;
+  padding-top: 302px;
+  padding-bottom: 36px;
+}
+.review-icon {
+  color: #f4efe9;
+  text-align: center;
+  font-size: 96px;
+  line-height: 96px;
+}
+.review-text {
+  color: #f4efe9;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  padding-bottom: 32px;
+}
+.review-name {
+  color: #f4efe9;
+  text-align: center;
+  font-size: 15px;
+  line-height: 24px;
+  padding-bottom: 184px;
 }
