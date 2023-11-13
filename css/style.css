@@ -8,13 +8,13 @@
   display: table;
   clear: both;
 }
-body {
+.body {
   background-color: #f4efe9;
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
 }
-header {
+.header {
   padding: 40px 0;
 }
 .container {
@@ -112,17 +112,14 @@ nav ul li {
   max-width: 564px;
   padding-bottom: 73px;
 }
-.main-pic-size {
-  display: block;
-  width: 100%;
-}
+
 .section2 {
   padding-top: 270px;
   background-color: #ffd394;
   position: relative;
 }
-
 .Relief-article-size {
+  margin: auto;
   max-width: 1200px;
   width: 100%;
   background: white;
@@ -131,7 +128,6 @@ nav ul li {
   display: flex;
   justify-content: center;
   padding: 80px 0;
-  align-items: center;
   position: absolute;
   top: -190px;
   left: calc(50% - 600px);
@@ -153,7 +149,6 @@ nav ul li {
   letter-spacing: 0.252px;
   margin-top: 28px;
   margin-bottom: 30px;
-  padding: 0 273px;
 }
 .Relief-article-learn-more {
   color: #1e1928;
@@ -448,6 +443,7 @@ nav ul li {
   padding: 198.5px 54.21px 187.79px 53.21px;
 }
 .item-section {
+  padding-top: 144px;
   padding-bottom: 302px;
   text-align: center;
 }
@@ -458,7 +454,6 @@ nav ul li {
   font-weight: 700;
   line-height: 26px;
   letter-spacing: 0.252px;
-  padding-top: 144px;
   padding-bottom: 80px;
 }
 .item-section item-list {
@@ -466,7 +461,9 @@ nav ul li {
   font-size: 0;
 }
 .item-list {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-bottom: 80px;
 }
 .item {
@@ -476,7 +473,7 @@ nav ul li {
   border-radius: 8px;
   background: #fff;
   max-width: 144px;
-  margin: 0 8px;
+  margin: 0 8px 10px;
 }
 .item img {
   padding: 12px 28px 0;
@@ -578,15 +575,16 @@ nav ul li {
 .as-item-list {
   font-size: 0;
   padding-bottom: 242px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .as-item {
-  max-width: 25%;
+  width: 25%;
   border-radius: 8px;
   background: rgba(30, 25, 40, 0.08);
   padding: 24px 29px;
-  margin: 0 8px;
-  display: inline-block;
-  vertical-align: center;
+  margin: 0 8px 10px;
 }
 .mr-l {
   margin-left: 0;
@@ -612,13 +610,12 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-   
 }
 .free-trial {
   max-width: 600px;
   margin: 0 auto;
   padding-right: 167px;
-  border-right: 1px solid #1E1928;
+  border-right: 1px solid #1e1928;
 }
 .free-trial h3 {
   color: #1e1928;
@@ -697,49 +694,49 @@ nav ul li {
   padding-top: 23px;
   padding-bottom: 138px;
 }
-.footer{
-  background: #FFF;
+.footer {
+  background: #fff;
 }
-.footer-info{
-padding-top: 64px;
-display: flex;
-justify-content: space-between;
+.footer-info {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
 }
-.footer-info-company{
-display: flex;
-flex-direction: column;
+.footer-info-company {
+  display: flex;
+  flex-direction: column;
 }
-.footer-info-company h3{
-  color: #1E1928;
-font-size: 17px;
-font-weight: 700;
-line-height: 26px; 
-letter-spacing: 0.252px;
-padding-bottom: 16px;
+.footer-info-company h3 {
+  color: #1e1928;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.252px;
+  padding-bottom: 16px;
 }
-.footer-info-company a{
-color: rgba(30, 25, 40, 0.80);
-font-size: 16px;
-line-height: 24px;
-text-decoration: none;
-padding-bottom: 16px;
+.footer-info-company a {
+  color: rgba(30, 25, 40, 0.8);
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  padding-bottom: 16px;
 }
-.footer-info-resources{
-display: flex;
-flex-direction: column;
+.footer-info-resources {
+  display: flex;
+  flex-direction: column;
 }
-.footer-info-resources h3{
-  color: #1E1928;
-font-size: 17px;
-font-weight: 700;
-line-height: 26px; 
-letter-spacing: 0.252px;
-padding-bottom: 16px;
+.footer-info-resources h3 {
+  color: #1e1928;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.252px;
+  padding-bottom: 16px;
 }
-.footer-info-resources a{
-color: rgba(30, 25, 40, 0.80);
-font-size: 16px;
-line-height: 24px;
-text-decoration: none;
-padding-bottom: 16px;
+.footer-info-resources a {
+  color: rgba(30, 25, 40, 0.8);
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  padding-bottom: 16px;
 }
