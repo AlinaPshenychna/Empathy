@@ -743,9 +743,18 @@ nav ul li {
          background-position: 97%;
         background-size: 30px
 }
-.faq .ui-accordion .ui-accordion-header .ui-icon{
+.faq .ui-accordion .ui-accordion-header span{
 display: none;
 }
+/* .faq .ui-accordion .ui-accordion-header .ui-icon{
+display: none;
+} */
+
+
+
+
+
+
 
 
 .footer {
