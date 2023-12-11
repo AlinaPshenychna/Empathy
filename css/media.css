@@ -124,25 +124,7 @@
     line-height: 48px;
     max-width: 495px;
   }
-  .built-img {
-    margin: 7.5px 80px 6.43px 150px;
-  }
-  .paperwork-img {
-    margin: 7.5px 80px 6.43px 150px;
-  }
-  .easily-img {
-    margin: 7.5px 80px 6.43px 150px;
-  }
-  .listen-img {
-    margin: 7.5px 80px 6.43px 150px;
-  }
-  .list-size {
-    max-width: 495px;
-    padding-bottom: 60px;
-  }
-  .standing-option-img {
-    max-width: 495px;
-  }
+
   body {
     background: #232323;
     color: #cdcdcd;
@@ -152,8 +134,8 @@
   #menuToggle {
     display: block;
     position: relative;
-    top: 2px;
-    left: -70px;
+    top: 12px;
+    left: -65px;
 
     z-index: 1;
 
@@ -233,7 +215,7 @@
     display: none;
     position: absolute;
     width: 250px;
-    margin: -45px 0 0 -265px;
+    margin: -10px 0 0 -213px;
     padding: 40px 10px 30px 40px;
     background: #ffd394;
     list-style-type: none;
@@ -253,16 +235,19 @@
     transform: none;
     display: block;
   }
-}
-@media (max-width: 812px) {
+  .main-pic-size{
+
+  }
+  .owl-carousel {
+    display: none;
+  }
   .item-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-  }
-  .item {
-    width: 30%;
   }
 }
-@media (max-width: 780px) {
+
+@media (max-width: 787px) {
+  
 }
+
