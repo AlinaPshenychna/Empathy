@@ -32,12 +32,16 @@
 nav ul li {
   margin-left: 40px;
 }
+#menuToggle input {
+  display: none;
+}
 .item_link {
   text-decoration: none;
   color: #1e1928;
   font-size: 13px;
   line-height: 20px;
 }
+
 .main-section {
   padding-bottom: 196px;
 }
@@ -719,43 +723,36 @@ nav ul li {
 }
 .faq .ui-accordion .ui-accordion-header-active {
   background-color: #ffd394;
-    border-top: solid 3px black;
-     border-left: solid 3px black;
-      border-right: solid 3px black;
-       border-bottom: none;
-         border-radius: 20px 20px 0 0;
-                  background-image: url("../images/arrow-down-.png");
-         background-repeat: no-repeat;
-         background-position: 97%;
-            background-size: 30px
+  border-top: solid 3px black;
+  border-left: solid 3px black;
+  border-right: solid 3px black;
+  border-bottom: none;
+  border-radius: 20px 20px 0 0;
+  background-image: url("../images/arrow-down-.png");
+  background-repeat: no-repeat;
+  background-position: 97%;
+  background-size: 30px;
 }
-.ui-accordion .ui-accordion-content{
-      border-top: none;
-     border-left: solid 3px black;
-      border-right: solid 3px black;
-       border-bottom: solid 3px black;
-         background-color: #ffd394;
-                  border-radius: 0 0 20px 20px;
+.ui-accordion .ui-accordion-content {
+  border-top: none;
+  border-left: solid 3px black;
+  border-right: solid 3px black;
+  border-bottom: solid 3px black;
+  background-color: #ffd394;
+  border-radius: 0 0 20px 20px;
 }
-.faq .ui-accordion-header-collapsed{
-                    background-image: url("../images/arrow-up-.png");
-         background-repeat: no-repeat;
-         background-position: 97%;
-        background-size: 30px
+.faq .ui-accordion-header-collapsed {
+  background-image: url("../images/arrow-up-.png");
+  background-repeat: no-repeat;
+  background-position: 97%;
+  background-size: 30px;
 }
-.faq .ui-accordion .ui-accordion-header span{
-display: none;
+.faq .ui-accordion .ui-accordion-header span {
+  display: none;
 }
 /* .faq .ui-accordion .ui-accordion-header .ui-icon{
 display: none;
 } */
-
-
-
-
-
-
-
 
 .footer {
   background: #fff;
