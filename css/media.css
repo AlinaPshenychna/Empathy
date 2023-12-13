@@ -106,7 +106,7 @@
     padding-top: 140px;
   }
   .how-article2 {
-    max-width: 991px;
+    width: 991px;
   }
   .main-section-title {
     font-size: 30px;
@@ -235,8 +235,6 @@
     transform: none;
     display: block;
   }
-  .main-pic-size {
-  }
   .owl-carousel {
     display: none;
   }
@@ -245,7 +243,6 @@
     flex-wrap: wrap;
   }
 }
-
 @media (max-width: 787px) {
   .main-flex {
     display: flex;
