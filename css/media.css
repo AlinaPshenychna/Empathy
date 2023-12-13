@@ -1,8 +1,13 @@
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
+  .container {
+  max-width: 1200px;
+  min-width: 991px;
+  margin: 0 auto;
+}
   .Relief-article-size {
-    max-width: 990px;
+    max-width: 950px;
     padding: 60px 0;
-    left: calc(50% - 495px);
+    left: calc(44% - 430px);
   }
   .item-section {
     padding-top: 20px;
@@ -70,6 +75,11 @@
 }
 
 @media (max-width: 991px) {
+  .container {
+  max-width: 991px;
+  min-width: 787px;
+  margin: 0 auto;
+}
   .navigation {
     display: none;
   }
@@ -105,9 +115,9 @@
   .section2 {
     padding-top: 140px;
   }
-  .how-article2 {
+  /* .how-article2 {
     width: 991px;
-  }
+  } */
   .main-section-title {
     font-size: 30px;
     line-height: 35px;
@@ -116,7 +126,7 @@
     display: block;
     width: 100%;
     padding-bottom: 55px;
-    max-width: 450px;
+    max-width: 404px;
   }
   .section2-article2-title {
     font-size: 40px;
