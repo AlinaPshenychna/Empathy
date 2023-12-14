@@ -13,6 +13,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
+  overflow-x: hidden;
 }
 .header {
   padding: 40px 0;
