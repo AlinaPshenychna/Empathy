@@ -11,8 +11,23 @@ $(document).ready(function () {
       0: {
         items: 1,
       },
+      500: {
+        items: 3,
+      },
+      600: {
+        items: 4,
+      },
+      700: {
+        items: 5,
+      },
+      860: {
+        items: 6,
+      },
+      991: {
+        items: 7,
+      },
       1100: {
-        items: 8,
+        items: 7,
       },
     },
   });

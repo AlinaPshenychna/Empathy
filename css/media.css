@@ -1,24 +1,6 @@
 @media (max-width: 1280px) {
 
-  .item-section {
-    padding-top: 20px;
-    padding-bottom: 250px;
-  }
 
-  .item-section item-list {
-    font-size: 0;
-  }
-  .item-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 80px;
-  }
-
-
-
- 
   .review-header {
     line-height: 25px;
     padding-bottom: 20px;
@@ -59,9 +41,6 @@
 }
 
 @media (max-width: 991px) {
-
-
-
   body {
     background: #232323;
     color: #cdcdcd;

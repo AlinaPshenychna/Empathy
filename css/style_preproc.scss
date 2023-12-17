@@ -250,6 +250,11 @@
     padding: 20px 0;
     left: calc(37% - 150px);
   }
+    @include max-screen(500px) {
+    width: 390px;
+    padding: 20px 0;
+    left: calc(43% - 150px);
+  }
 }
 
 .Relief-title {
@@ -637,7 +642,7 @@
   width: 40%;
   @include max-screen(800px) {
     width: 100%;
-    padding-right: 20px ;
+    padding-right: 20px;
     padding-left: 40px;
   }
 }
@@ -666,7 +671,7 @@
   display: flex;
   align-items: center;
   padding-bottom: 80px;
-    @include max-screen(800px) {
+  @include max-screen(800px) {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 0;
@@ -675,9 +680,9 @@
 .listen-text {
   width: 50%;
   padding-left: 40px;
-    @include max-screen(800px) {
+  @include max-screen(800px) {
     width: 100%;
-    padding-right: 20px ;
+    padding-right: 20px;
   }
 }
 .listen-text h2 {
@@ -688,7 +693,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 42px;
-    @include max-screen(800px) {
+  @include max-screen(800px) {
     text-align: center;
   }
 }
@@ -698,7 +703,7 @@
   font-size: 17px;
   line-height: 30px;
   letter-spacing: 0.252px;
-    @include max-screen(800px) {
+  @include max-screen(800px) {
     text-align: center;
     padding-bottom: 15px;
   }
@@ -711,12 +716,10 @@
   display: block;
   background-repeat: no-repeat;
   background-position: center;
-    @include max-screen(800px) {
+  @include max-screen(800px) {
     width: 100%;
   }
 }
-
-
 
 .owl-nav {
   display: none;
@@ -725,6 +728,10 @@
   padding-top: 144px;
   padding-bottom: 302px;
   text-align: center;
+  @include max-screen(1100px) {
+    padding-top: 20px;
+    padding-bottom: 250px;
+  }
 }
 .item-section h3 {
   color: #1e1928;
@@ -739,11 +746,21 @@
   max-width: 1200px;
   font-size: 0;
 }
+ .item-section item-list {
+    font-size: 0;
+  }
 .item-list {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 80px;
+  @include max-screen(1100px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+  }
 }
 .item {
   display: inline-block;
