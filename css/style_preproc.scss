@@ -250,13 +250,12 @@
     padding: 20px 0;
     left: calc(37% - 150px);
   }
-    @include max-screen(500px) {
-    width: 390px;
+  @include max-screen(500px) {
+    width: 370px;
     padding: 20px 0;
-    left: calc(43% - 150px);
+    left: calc(41% - 150px);
   }
 }
-
 .Relief-title {
   color: #1e1928;
   text-align: center;
@@ -433,7 +432,6 @@
 .main-sections {
   background: #f4efe9;
 }
-
 .built {
   padding-top: 80px;
   margin-bottom: 80px;
@@ -720,7 +718,6 @@
     width: 100%;
   }
 }
-
 .owl-nav {
   display: none;
 }
@@ -746,9 +743,9 @@
   max-width: 1200px;
   font-size: 0;
 }
- .item-section item-list {
-    font-size: 0;
-  }
+.item-section item-list {
+  font-size: 0;
+}
 .item-list {
   display: flex;
   justify-content: center;
@@ -795,7 +792,6 @@
   padding: 10px 33px;
   text-decoration: none;
 }
-
 .item_link {
   text-decoration: none;
   color: #1e1928;
@@ -804,4 +800,64 @@
 }
 .link-mg {
   margin-right: 44px;
+}
+
+.section-security-position {
+  position: relative;
+}
+.security-position {
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 8px;
+  background: #fff;
+  text-align: center;
+  position: absolute;
+  top: -158px;
+  left: calc(50% - 600px);
+  padding-top: 80px;
+  padding-bottom: 76px;
+  @include max-screen(1199px) {
+    max-width: 950px;
+    padding: 60px 0;
+    left: calc(52% - 495px);
+  }
+  @include max-screen(1100px) {
+    max-width: 950px;
+    padding: 60px 0;
+    left: calc(52% - 495px);
+  }
+  @include max-screen(991px) {
+    max-width: 780px;
+    padding: 50px 0;
+    left: calc(50% - 390px);
+  }
+  @include max-screen(787px) {
+    max-width: 700px;
+    padding: 30px 0;
+    left: calc(50% - 350px);
+  }
+  @include max-screen(730px) {
+    width: 500px;
+    padding: 20px 0;
+    left: calc(51% - 250px);
+  }
+  @include max-screen(495px) {
+    width: 350px;
+    padding: 20px 0;
+    left: calc(44% - 150px);
+  }
+}
+.security-position h3 {
+  color: #1e1928;
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+  padding-bottom: 24px;
+}
+.security-position p {
+  color: rgba(30, 25, 40, 0.8);
+  text-align: center;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.252px;
 }

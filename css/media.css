@@ -122,17 +122,7 @@
   }
 
 
-
-
-  .owl-carousel {
-    display: none;
-  }
-  .item-list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-@media (max-width: 787px) 
+@media (max-width: 787px) {
     .item-section h3 {
     padding-bottom: 30px;
   }
@@ -142,21 +132,4 @@
   .item-section {
     padding-bottom: 25px;
   }
-
-
-
-@media (max-width: 730px) {
-
-  .Relief-text {
-    display: none;
-  }
-
-  .section2 {
-    padding-top: 130px;
-  }
-  .how-article2 {
-    width: 80%;
-  }
 }
-
-
