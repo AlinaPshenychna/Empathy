@@ -59,10 +59,6 @@
 }
 
 @media (max-width: 991px) {
-  .navigation {
-    display: none;
-  }
-
 
 
 
@@ -157,131 +153,8 @@
     flex-wrap: wrap;
   }
 }
-@media (max-width: 787px) {
-
-
-  .list1 {
-    padding-bottom: 10px;
-  }
-  .list2 {
-    padding-bottom: 10px;
-  }
-  .list-size {
-    padding-bottom: 10px;
-  }
-  .main-list {
-    padding-bottom: 10px;
-  }
-
-
-
-  .built {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .built h2 {
-    text-align: center;
-  }
-  .built p {
-    text-align: center;
-    padding-bottom: 15px;
-  }
-  .built:after {
-    width: 100%;
-  }
-  .built-text {
-    width: 100%;
-  }
-  .standing {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-  }
-  .standing h2 {
-    text-align: center;
-  }
-  .standing p {
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  .standing:before {
-    display: none;
-  }
-  .standing:after {
-    content: "";
-    background-image: url("../images/img22.png");
-    width: 55%;
-    height: 586px;
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .standing-text {
-    width: 100%;
-  }
-  .easily {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .easily h2 {
-    text-align: center;
-  }
-  .easily p {
-    text-align: center;
-    padding-bottom: 15px;
-  }
-  .easily:after {
-    width: 100%;
-  }
-  .easily-text {
-    width: 100%;
-  }
-  .paperwork {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-  }
-  .paperwork h2 {
-    text-align: center;
-  }
-  .paperwork p {
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  .paperwork:before {
-    display: none;
-  }
-  .paperwork:after {
-    content: "";
-    background-image: url("../images/img4.jpg");
-    width: 55%;
-    height: 586px;
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .paperwork-text {
-    width: 100%;
-  }
-  .listen {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 15px;
-  }
-  .listen h2 {
-    text-align: center;
-  }
-  .listen p {
-    text-align: center;
-    padding-bottom: 15px;
-  }
-  .listen:after {
-    width: 100%;
-  }
-  .listen-text {
-    width: 100%;
-  }
-  .item-section h3 {
+@media (max-width: 787px) 
+    .item-section h3 {
     padding-bottom: 30px;
   }
   .item-list {
@@ -290,13 +163,6 @@
   .item-section {
     padding-bottom: 25px;
   }
-}
-
-
-
-
-
-
 
 
 
