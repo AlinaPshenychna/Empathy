@@ -1,0 +1,70 @@
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  @include max-screen(1100px) {
+    padding-bottom: 40px;
+  }
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    @include max-screen(720px) {
+      display: flex;
+      flex-direction: row;
+    }
+    .logo {
+      padding-left: 40px;
+      display: inline-block;
+      @include max-screen(550px) {
+        padding-left: 10px;
+      }
+    }
+  }
+  .navigation {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    @include max-screen(991px) {
+      display: none;
+    }
+    .item_link {
+      text-decoration: none;
+      color: #1e1928;
+      font-size: 13px;
+      line-height: 20px;
+      .link-mg {
+        margin-right: 44px;
+      }
+    }
+  }
+  nav {
+    ul {
+      li {
+        margin-left: 40px;
+      }
+    }
+  }
+}
+#menuToggle {
+  display: block;
+  position: relative;
+  top: 12px;
+  left: -65px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+  @include max-screen(720px) {
+    display: block;
+    position: relative;
+    top: 4px;
+    left: -100px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
