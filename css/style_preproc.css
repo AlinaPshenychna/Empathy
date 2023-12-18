@@ -694,7 +694,7 @@
 @media screen and (max-width: 540px) {
   .standing:after {
     background-position: left;
-    width: 97%;
+    width: 95%;
   }
 }
 
@@ -1565,77 +1565,27 @@
   }
 }
 
-.faq {
-  padding: 100px;
-  background-color: #f4efe9;
-}
-
-.faq h4 {
-  color: black;
-  text-align: center;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: center;
-}
-
-.faq .ui-accordion .ui-accordion-header {
-  position: relative;
-  border: solid 1px black;
-  border-radius: 20px;
-  color: black;
-  padding: 15px;
-}
-
-.faq .ui-accordion .ui-accordion-header-active {
-  background-color: #ffd394;
-  border-top: solid 3px black;
-  border-left: solid 3px black;
-  border-right: solid 3px black;
-  border-bottom: none;
-  border-radius: 20px 20px 0 0;
-  background-image: url("../images/arrow-down-.png");
-  background-repeat: no-repeat;
-  background-position: 97%;
-  background-size: 30px;
-}
-
-.ui-accordion .ui-accordion-content {
-  border-top: none;
-  border-left: solid 3px black;
-  border-right: solid 3px black;
-  border-bottom: solid 3px black;
-  background-color: #ffd394;
-  border-radius: 0 0 20px 20px;
-}
-
-.faq .ui-accordion-header-collapsed {
-  background-image: url("../images/arrow-up-.png");
-  background-repeat: no-repeat;
-  background-position: 97%;
-  background-size: 30px;
-}
-
-.faq .ui-accordion .ui-accordion-header span {
-  display: none;
-}
-
-.faq .ui-accordion .ui-accordion-header .ui-icon {
-  display: none;
-}
-
 .footer {
   background: #fff;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 114px;
 }
 
 .footer-info {
   padding-top: 64px;
   display: flex;
   justify-content: space-between;
+  width: 40%;
 }
 
 .footer-info-company {
   display: flex;
   flex-direction: column;
+  padding-left: 40px;
 }
 
 .footer-info-company h3 {
@@ -1675,4 +1625,28 @@
   line-height: 24px;
   text-decoration: none;
   padding-bottom: 16px;
+}
+
+.icon-link {
+  border-radius: 9999px;
+  background: #1E1928;
+  color: #F4EFE9;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 32px;
+  text-decoration: none;
+}
+
+.icon-footer {
+  display: inline-block;
+  padding-right: 40px;
+  width: 50%;
+}
+
+.icon-footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  margin-top: 64px;
 }/*# sourceMappingURL=style_preproc.css.map */
