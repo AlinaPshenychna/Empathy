@@ -1288,6 +1288,11 @@
   padding-top: 144px;
   padding-bottom: 68px;
 }
+@media screen and (max-width: 720px) {
+  .as-on h3 {
+    padding-top: 70px;
+  }
+}
 
 .as-item-list {
   padding-bottom: 242px;
@@ -1315,7 +1320,7 @@
     width: 40%;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
   .as-item {
     width: 80%;
   }
@@ -1339,7 +1344,6 @@
   left: calc(50% - 600px);
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 @media screen and (max-width: 1199px) {
   .trial-position {
@@ -1380,18 +1384,25 @@
     left: calc(51% - 250px);
   }
 }
+@media screen and (max-width: 540px) {
+  .trial-position {
+    width: 350px;
+    padding: 20px 0;
+    margin: 48px 0;
+    left: calc(44% - 150px);
+  }
+}
 @media screen and (max-width: 495px) {
   .trial-position {
     width: 350px;
     padding: 20px 0;
+    margin: 48px 0;
     left: calc(44% - 150px);
   }
 }
 
 .free-trial {
-  max-width: 600px;
-  margin: 0 auto;
-  padding-right: 167px;
+  width: 50%;
   border-right: 1px solid #1e1928;
 }
 
@@ -1401,6 +1412,17 @@
   font-size: 32px;
   line-height: 42px;
 }
+@media screen and (max-width: 787px) {
+  .free-trial h3 {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .free-trial h3 {
+    font-size: 22px;
+    line-height: 31px;
+  }
+}
 
 .free-trial p {
   color: rgba(30, 25, 40, 0.64);
@@ -1409,10 +1431,15 @@
   line-height: 22px;
   letter-spacing: 0.084px;
 }
+@media screen and (max-width: 540px) {
+  .free-trial p {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
 
 .all-included {
-  margin: 0 auto;
-  max-width: 600px;
+  width: 50%;
 }
 
 .all-included h3 {
@@ -1421,6 +1448,17 @@
   font-size: 32px;
   line-height: 42px;
 }
+@media screen and (max-width: 787px) {
+  .all-included h3 {
+    font-size: 27px;
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .all-included h3 {
+    font-size: 22px;
+  }
+}
 
 .all-included p {
   color: rgba(30, 25, 40, 0.64);
@@ -1428,6 +1466,12 @@
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.084px;
+}
+@media screen and (max-width: 540px) {
+  .all-included p {
+    font-size: 9px;
+    line-height: 15px;
+  }
 }
 
 .start-trial-black h3 {
@@ -1439,6 +1483,11 @@
   padding-top: 166px;
   padding-bottom: 33px;
 }
+@media screen and (max-width: 540px) {
+  .start-trial-black h3 {
+    padding-top: 130px;
+  }
+}
 
 .main-form-tel {
   border-radius: 9999px;
@@ -1449,6 +1498,17 @@
   justify-content: space-between;
   text-align: center;
   margin: 0 auto;
+}
+@media screen and (max-width: 540px) {
+  .main-form-tel {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .main-form-tel {
+    max-width: 380px;
+    padding: 4px 7px;
+  }
 }
 
 .form-tel {
@@ -1480,6 +1540,12 @@
   line-height: 20px;
   padding-top: 23px;
   padding-bottom: 138px;
+}
+@media screen and (max-width: 540px) {
+  .start-trial-black p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .faq {

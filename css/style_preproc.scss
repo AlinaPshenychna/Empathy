@@ -983,6 +983,9 @@
   line-height: 42px;
   padding-top: 144px;
   padding-bottom: 68px;
+  @include max-screen(720px) {
+    padding-top: 70px;
+  }
 }
 .as-item-list {
   padding-bottom: 242px;
@@ -1004,8 +1007,8 @@
   @include max-screen(1280px) {
     width: 40%;
   }
-  @include max-screen(540px) {
-     width: 80%;
+  @include max-screen(600px) {
+    width: 80%;
   }
 }
 
@@ -1026,7 +1029,6 @@
   left: calc(50% - 600px);
   display: flex;
   justify-content: center;
-  align-items: center;
   @include max-screen(1199px) {
     max-width: 950px;
     padding: 60px 0;
@@ -1056,16 +1058,21 @@
     padding: 20px 0;
     left: calc(51% - 250px);
   }
+  @include max-screen(540px) {
+    width: 350px;
+    padding: 20px 0;
+    margin: 48px 0;
+    left: calc(44% - 150px);
+  }
   @include max-screen(495px) {
     width: 350px;
     padding: 20px 0;
+    margin: 48px 0;
     left: calc(44% - 150px);
   }
 }
 .free-trial {
-  max-width: 600px;
-  margin: 0 auto;
-  padding-right: 167px;
+  width: 50%;
   border-right: 1px solid #1e1928;
 }
 .free-trial h3 {
@@ -1073,6 +1080,13 @@
   text-align: center;
   font-size: 32px;
   line-height: 42px;
+  @include max-screen(787px) {
+    font-size: 27px;
+  }
+  @include max-screen(540px) {
+    font-size: 22px;
+    line-height: 31px;
+  }
 }
 .free-trial p {
   color: rgba(30, 25, 40, 0.64);
@@ -1080,16 +1094,26 @@
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.084px;
+  @include max-screen(540px) {
+    font-size: 9px;
+    line-height: 15px;
+  }
 }
 .all-included {
-  margin: 0 auto;
-  max-width: 600px;
+  width: 50%;
 }
 .all-included h3 {
   color: #1e1928;
   text-align: center;
   font-size: 32px;
   line-height: 42px;
+  @include max-screen(787px) {
+    font-size: 27px;
+    line-height: 31px;
+  }
+  @include max-screen(540px) {
+    font-size: 22px;
+  }
 }
 .all-included p {
   color: rgba(30, 25, 40, 0.64);
@@ -1097,6 +1121,10 @@
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.084px;
+  @include max-screen(540px) {
+    font-size: 9px;
+    line-height: 15px;
+  }
 }
 .start-trial-black h3 {
   color: #fff;
@@ -1106,6 +1134,9 @@
   letter-spacing: 0.252px;
   padding-top: 166px;
   padding-bottom: 33px;
+  @include max-screen(540px) {
+    padding-top: 130px;
+  }
 }
 .main-form-tel {
   border-radius: 9999px;
@@ -1116,6 +1147,13 @@
   justify-content: space-between;
   text-align: center;
   margin: 0 auto;
+  @include max-screen(540px) {
+    max-width: 400px;
+  }
+  @include max-screen(540px) {
+    max-width: 380px;
+    padding: 4px 7px;
+  }
 }
 .form-tel {
   width: 180px;
@@ -1144,6 +1182,10 @@
   line-height: 20px;
   padding-top: 23px;
   padding-bottom: 138px;
+  @include max-screen(540px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 .faq {
   padding: 100px;
