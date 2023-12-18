@@ -79,15 +79,3 @@
     display: block;
   }
 }
-
-@media (max-width: 787px) {
-    .item-section h3 {
-    padding-bottom: 30px;
-  }
-  .item-list {
-    padding-bottom: 15px;
-  }
-  .item-section {
-    padding-bottom: 25px;
-  }
-}

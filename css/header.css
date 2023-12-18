@@ -60,12 +60,13 @@
 }
 @media screen and (max-width: 720px) {
   #menuToggle {
-    display: block;
-    position: relative;
     top: 4px;
-    left: -100px;
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
+    left: -70px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #menuToggle {
+    top: 4px;
+    left: -35px;
   }
 }/*# sourceMappingURL=header.css.map */

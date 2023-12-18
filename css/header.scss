@@ -59,12 +59,11 @@
   -webkit-user-select: none;
   user-select: none;
   @include max-screen(720px) {
-    display: block;
-    position: relative;
     top: 4px;
-    left: -100px;
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
+    left: -70px;
+  }
+  @include max-screen(540px) {
+    top: 4px;
+    left: -35px;
   }
 }

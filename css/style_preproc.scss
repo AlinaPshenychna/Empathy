@@ -190,6 +190,9 @@
   font-weight: 700;
   line-height: 48px;
   max-width: 495px;
+  @include max-screen(920px) {
+    padding-bottom: 20px;
+  }
 }
 .section2 {
   padding-top: 270px;
@@ -331,7 +334,7 @@
   max-width: 600px;
   padding-bottom: 40px;
   @include max-screen(970px) {
-    width: 70%;
+    width: 88%;
   }
   @include max-screen(787px) {
     padding-bottom: 10px;
@@ -508,6 +511,10 @@
     display: block;
     background-repeat: no-repeat;
     background-position: center;
+  }
+  @include max-screen(540px) {
+    background-position: left;
+    width: 97%;
   }
 }
 .standing {
@@ -995,6 +1002,9 @@
     padding-bottom: 200px;
     display: flex;
     flex-wrap: wrap;
+    @include max-screen(540px) {
+      padding-bottom: 150px;
+    }
   }
 }
 .as-item {
